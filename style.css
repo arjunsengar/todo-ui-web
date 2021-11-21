@@ -1,0 +1,217 @@
+.cont {
+  border: 1px solid lightgray;
+  height: 70vh;
+  width: 60vw;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.upper-container1 {
+  display: block;
+  margin-top: 40px;
+  margin-left: 75px;
+  font-size: 30px;
+}
+#tasks {
+  font-weight: bold;
+  color: black;
+}
+.circle i {
+  font-size: 30px;
+  color: red;
+  margin-left: 45%;
+  padding-top: 10px;
+}
+span {
+  color: grey;
+}
+.back {
+  color: gray;
+  font-size: 35px;
+}
+.card {
+  border: 1.5px solid pink;
+  height: 50vh;
+  width: 23%;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px pink;
+  display: inline-block;
+  margin-left: 65px;
+  margin-top: 30px;
+}
+.div1 {
+  position: absolute;
+  top: 10%;
+  right: 0;
+  font-size: 30px;
+  text-align: center;
+  height: 15%;
+  color: pink;
+  border-bottom: 1px solid pink;
+  padding-right: 18px;
+}
+.div2 {
+  position: absolute;
+  top: 10%;
+  font-size: 25px;
+  text-align: center;
+  color: red;
+  margin-top: 90px;
+  padding-left: 35px;
+  text-decoration: line-through;
+}
+.div3 {
+  color: black;
+  margin-top: 180px;
+  font-size: 22px;
+  font-style: normal;
+  padding-left: 10px;
+}
+.upper-container2 {
+  display: block;
+  margin-top: 30px;
+  margin-left: 40%;
+  font-size: 30px;
+}
+.leftarrow i {
+  margin-top: 34px;
+  font-size: 35px;
+  margin-left: 35%;
+  color: red;
+}
+.card1 {
+  border: 1.5px solid pink;
+  height: 40vh;
+  width: 20%;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px pink;
+  display: inline-block;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+#tasks2 {
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  max-width: 500px;
+  position: relative;
+}
+#tasks2::before {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  left: -65%;
+}
+#tasks2::after {
+  content: "";
+  width: 120px;
+  height: 2px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 20px;
+  right: -65%;
+}
+.plus i {
+  padding-top: 38px;
+  padding-left: 73%;
+  font-size: 40px;
+  color: red;
+}
+
+.notshow {
+  filter: blur(6px);
+}
+.popup {
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  top: 31%;
+  justify-content: center;
+  border: 2px solid pink;
+  border-radius: 15px;
+  margin-left: 35%;
+  display: inline;
+  background-color: white;
+}
+.popup h1 {
+  font-weight: lighter;
+  font-size: 28px;
+  color: red;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.popup input {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 50%;
+  border: 2px solid pink;
+}
+
+.card input {
+  width: 9%;
+  border: 2px solid pink;
+}
+
+.popup button {
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 185px;
+  padding: 5px 10px;
+}
+.popup1 {
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  top: 31%;
+  justify-content: center;
+  border: 2px solid pink;
+  border-radius: 15px;
+  margin-left: 35%;
+  display: inline;
+  background-color: white;
+}
+.popup1 input {
+  margin-top: 20px;
+  margin-left: 100px;
+  width: 50%;
+  border: 2px solid pink;
+}
+.popup1 button {
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  display: block;
+  margin-top: 30px;
+  margin-left: 185px;
+  padding: 5px 10px;
+}
+.popup1 h1 {
+  font-weight: lighter;
+  font-size: 28px;
+  color: red;
+  text-align: center;
+  margin-top: 10%;
+}
+.btn {
+  margin-left: 40%;
+  margin-top: 2%;
+}
+a {
+  padding-left: 10%;
+  color: gray;
+  font-size: 35px;
+  text-decoration: none;
+}
